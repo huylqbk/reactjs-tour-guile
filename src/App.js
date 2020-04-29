@@ -5,6 +5,8 @@ import Welcome from './component/WelcomeClass';
 import Comment from './component/Comment';
 import Clock from './component/Clock';
 import ClockState from './component/ClockState';
+import Tongle from './component/Tongle';
+import ListMap from './component/ListMap';
 
 function App() {
   const user = {
@@ -20,6 +22,8 @@ function App() {
       <Comment user = {user} />
       <Clock/>
       <ClockState/>
+      <Tongle/>
+      <ListMap/>
     </div>
   );
 }

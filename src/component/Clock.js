@@ -3,7 +3,7 @@ import React from 'react';
 function Timers(props){
 return(
     <div>
-        <h4>Time is {props.date.toLocaleTimeString()}</h4>
+        <h4>Time is props function {props.date.toLocaleTimeString()}</h4>
     </div>
     );
 }

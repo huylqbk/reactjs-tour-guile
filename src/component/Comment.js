@@ -4,14 +4,14 @@ function User(props) {
     console.log(props)
     return (
         <div className="user">
-            Name: {props.info.name}
+            Name props: {props.info.name}
         </div>
     );
 }
 
 const Comment =(props) => (
     <div className="comment">
-        <h2>Comment {props.user.comment}</h2>
+        <h2>Comment Props {props.user.comment}</h2>
         <User info={props.user.info}/>
     </div>
 );

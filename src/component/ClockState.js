@@ -30,7 +30,7 @@ class ClockState extends Component {
 
     render() {
         return (
-            <h4>Clock State {this.state.date.toLocaleTimeString()} </h4>
+            <h4>Clock State - life cycle {this.state.date.toLocaleTimeString()} </h4>
         );
     }
 }
