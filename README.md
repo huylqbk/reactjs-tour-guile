@@ -7,3 +7,9 @@ demo reactjs through tour guide page
 - props and components
 - state and lifecycle
 - componentWillMount, render, componentDidMount
+- handling events
+- render use map
+- forms
+- lifting state up
+- composition & inheritance
+- thinking in react
